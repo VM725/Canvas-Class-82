@@ -58,3 +58,6 @@ canvas.addEventListener("touchstart", my_touchstart);
         last_position_of_x = current_position_of_mouse_x; 
         last_position_of_y = current_position_of_mouse_y;
     }
+function cleararea(){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+}
